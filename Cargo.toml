@@ -1,0 +1,12 @@
+[package]
+name = "pahole-macro"
+version = "0.1.0"
+authors = ["Solomon Ucko <solly.ucko@gmail.com>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "1", features = ["extra-traits", "full"] }
+proc-macro2 = "1"
