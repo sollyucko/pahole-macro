@@ -11,9 +11,7 @@ mod M {
     enum E {
         A,
         B(u32),
-        C {
-            n: i128,
-        },
+        C { n: i128 },
     }
 
     enum F {
